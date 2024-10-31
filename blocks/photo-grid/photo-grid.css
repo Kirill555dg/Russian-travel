@@ -47,3 +47,8 @@
     padding-top: calc(88px - ((700px - 100vw) * (88 - 64)/(700 - 320)));
   }
 }
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    padding-top: calc(88px - ((700px - 100vw) * (88 - 64)/(700 - 320)));
+  }
+}
