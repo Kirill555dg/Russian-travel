@@ -7,3 +7,10 @@
   flex-direction: column;
   gap: 80px 0;
 }
+
+@media screen and (max-width: 1080px) {
+  .places {
+    padding-top: 92px;
+    max-width: calc(100vw - 2*48px);
+  }
+}

@@ -9,3 +9,10 @@
   grid-template-columns: repeat(5, max-content) 1fr;
   gap: 18px;
 }
+
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: calc(100vw - 2*48px);
+  }
+}
