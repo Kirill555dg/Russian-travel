@@ -15,6 +15,21 @@
 
 @media screen and (max-width: 1200px) {
   .cover {
+    min-height: calc(740px - ((1200px - 100vw) * (740 - 640)/(1200 - 1024)));
     padding-top: 92px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: calc(640px - ((1024px - 100vw) * (640 - 480)/(1024 - 768)));
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cover {
+    min-height: calc(480px - ((700px - 100vw) * (480 - 200)/(700 - 320)));
+    padding-top: 66px;
   }
 }

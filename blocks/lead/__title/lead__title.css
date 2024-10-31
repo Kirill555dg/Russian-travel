@@ -9,3 +9,16 @@
   text-align: center;
 
 }
+
+@media screen and (max-width: 752px) {
+  .lead__title {
+    padding: 0 16px;
+    font-size: calc(96px - ((752px - 100vw) * (96 - 40)/(752 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: 40px;
+  }
+}

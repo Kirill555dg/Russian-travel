@@ -14,14 +14,20 @@
 
 }
 
-@media screen and (max-width: calc(928px + 2*24px)) {
+@media screen and (max-width: 976px) {
   .lead__caption {
     padding-left: calc((976px - 100vw)/2);
   }
 }
 
-@media screen and (max-width: calc(928px)) {
+@media screen and (max-width: 928px) {
   .lead__caption {
     padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .lead__caption {
+    padding-left: calc(24px - ((752px - 100vw) * (24 - 16)/(752 - 320)));
   }
 }

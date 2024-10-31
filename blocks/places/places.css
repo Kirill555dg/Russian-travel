@@ -25,5 +25,36 @@
   .places {
     max-width: calc(100vw - 2*24px);
     padding-top: 88px;
+
+    gap: calc(80px - ((976px - 100vw) * (80 - 73)/(976 - 768))) 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+    padding: 88px 0 0;
+
+    gap: 73px 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .places {
+    padding: 88px 16px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .places {
+    padding: calc(88px - ((700px - 100vw) * (88 - 64)/(700 - 320))) 0 0;
+    gap: calc(73px - ((700px - 100vw) * (73 - 50)/(700 - 320))) 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding-top: 64px;
+    gap: 50px 0;
   }
 }

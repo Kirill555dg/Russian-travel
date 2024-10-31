@@ -1,9 +1,9 @@
 .header__lang-link {
-  line-height: 1.17;
-  font-size: 24px;
-
   margin: 0;
   padding-bottom: 6px;
+
+  line-height: 1.17;
+  font-size: 24px;
 
   text-decoration: none;
   color: #FFFFFF;
@@ -12,4 +12,10 @@
 
 .header__lang-link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 700px) {
+  .header__lang-link {
+    font-size: calc(24px - ((700px - 100vw) * (24 - 18)/(700 - 320)));
+  }
 }

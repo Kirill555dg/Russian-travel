@@ -10,3 +10,16 @@
 
   z-index: 1;
 }
+
+@media screen and (max-width: 752px) {
+  .cover__subtitle {
+    padding: 0 16px;
+    font-size: calc(18px - ((752px - 100vw) * (18 - 14)/(752 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+  }
+}

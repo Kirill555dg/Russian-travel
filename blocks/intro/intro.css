@@ -26,3 +26,22 @@
     padding-top: 88px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    padding: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 752px) {
+  .intro {
+    padding: 88px 16px 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .intro {
+    padding-top: calc(88px - ((700px - 100vw) * (88 - 64)/(700 - 320)));
+  }
+}

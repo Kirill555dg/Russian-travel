@@ -9,3 +9,16 @@
 
   z-index: 1;
 }
+
+@media screen and (max-width: 752px) {
+  .cover__title {
+    padding: 0 16px;
+    font-size: calc(72px - ((752px - 100vw) * (72 - 32)/(752 - 320)));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+  }
+}
