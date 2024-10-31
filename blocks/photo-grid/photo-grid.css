@@ -15,3 +15,16 @@
     max-width: calc(100vw - 2*48px);
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .photo-grid {
+    max-width: calc(100vw - 2*24px);
+    padding-top: 88px;
+  }
+}

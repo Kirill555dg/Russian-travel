@@ -13,3 +13,15 @@
   align-self: start;
 
 }
+
+@media screen and (max-width: calc(928px + 2*24px)) {
+  .lead__caption {
+    padding-left: calc((976px - 100vw)/2);
+  }
+}
+
+@media screen and (max-width: calc(928px)) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}

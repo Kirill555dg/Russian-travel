@@ -1,7 +1,7 @@
 .header {
   max-width: 1184px;
   margin: 0 auto;
-  padding: 28px calc((100vw - 1184px)/2) 0;
+  padding-top: 28px;
   display: grid;
   grid-template-columns: 1fr max-content max-content;
   align-items: end;
@@ -13,3 +13,17 @@
     padding: 28px 48px 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    padding: 28px 0 0;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+

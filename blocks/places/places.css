@@ -14,3 +14,16 @@
     max-width: calc(100vw - 2*48px);
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 976px) {
+  .places {
+    max-width: calc(100vw - 2*24px);
+    padding-top: 88px;
+  }
+}

@@ -5,3 +5,15 @@
   font-size: 72px;
   line-height: 1.06;
 }
+
+@media screen and (max-width: 976px) {
+  .place__title {
+    font-size: calc(72px - ((976px - 100vw) * (72 - 42)/(976 - 768)));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+  }
+}
